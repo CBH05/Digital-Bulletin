@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+
+
+}
+
+body{
+        Background-image: url(board.png);
+     background-size:cover;
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+
+     .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     width: 100%;
+
+     }
+}
+
+
+.container{
+
+    background-color:gainsboro;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction:row; 
+    /* by default flexboxes will render in the row layout */
+    
+    /* jusitfy content will align items along the main axis */
+    justify-content:space-evenly;
+
+    
+    align-items:center;
+}
+
+.about-img{
+    position: fixed;
+   width: 100%;
+    height: auto;
+    max-width: 1200px;
+    transform: translate(80px, -20px);
+
+}

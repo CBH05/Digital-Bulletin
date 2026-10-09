@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+
+
+}
+
+body{
+         Background-image: url(board.png);
+     background-size:cover;
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+
+     .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     width: 100%;
+
+     }
+}
+
+
+.container{
+
+    background-color:gainsboro;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction:row; 
+    /* by default flexboxes will render in the row layout */
+    
+    /* jusitfy content will align items along the main axis */
+    justify-content:space-evenly;
+
+    
+    align-items:center;
+}
+
+img{
+    max-width: 100%;
+}
+
+.gallery-container{
+    width: 350px;
+    padding: 20px 10px 20px 30px;
+    display: flex;
+     flex-direction: column; 
+  row-gap: 60px;
+}
+
+
+.photo-8{
+    background-color: whitesmoke;
+    padding: 15px 15px 50px 15px;
+     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15), 0 2px 5px rgba(0, 0, 0, 0.1);
+     width: 500px;
+}
+
+.photo-9{
+    background-color: whitesmoke;
+    padding: 15px 15px 50px 15px;
+     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15), 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.photo-10{
+     width: 300px;
+    background-color: whitesmoke;
+    padding: 15px 15px 50px 15px;
+     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15), 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.word-1{
+       max-width: 500px;
+    transform: translate(350px, -4800px);
+     padding: 20px 10px 20px 30px;
+}
+
+.word-2{
+       max-width: 500px;
+    transform: translate(-140px, -4300px);
+     padding: 20px 10px 20px 30px;
+}
+
+.word-3{
+       max-width: 500px;
+    transform: translate(340px, -4440px);
+     padding: 20px 10px 20px 30px;
+}
+
+.word-4{
+       max-width: 500px;
+    transform: translate(-120px, -3700px);
+     padding: 20px 10px 20px 30px;
+}
+
+.word-5{
+       max-width: 550px;
+    transform: translate(350px, -3500px);
+     padding: 20px 10px 20px 30px;
+}
+
+.word-6{
+       max-width: 500px;
+    transform: translate(-210px, -2700px);
+     padding: 20px 10px 20px 30px;
+}
+
+.word-7{
+       max-width:500px;
+    transform: translate(340px, -2850px);
+     padding: 20px 10px 20px 30px;
+}
+
+.word-8{
+       max-width: 500px;
+    transform: translate(-120px, -2340px);
+     padding: 20px 10px 20px 30px;
+}
+
+.word-9{
+       max-width: 550px;
+    transform: translate(350px, -2340px);
+     padding: 20px 10px 20px 30px;
+}
+
+.word-10{
+       max-width: 500px;
+    transform: translate(-190px, -1800px);
+     padding: 20px 10px 20px 30px;
+}
