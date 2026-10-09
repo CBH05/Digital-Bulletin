@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+
+
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+        Background-image: url(board.png);
+     background-size:cover;
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+
+     .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     width: 100%;
+
+     }
+}
+
+
+.container{
+
+    background-color:gainsboro;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction:row; 
+    /* by default flexboxes will render in the row layout */
+    
+    /* jusitfy content will align items along the main axis */
+    justify-content:space-evenly;
+
+    
+    align-items:center;
+   
+    
+}
+
+h1 img{
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+}
+
+.photo-1{
+    rotate: -12deg;
+    transform: translate(100px,-200px);
+    width: 220px;
+    
+   
+}
+
+.photo-2{
+    rotate: 15deg;
+    transform: translate(150px, -20px);
+    width: 220px;
+  
+  
+}
+
+.photo-3{
+    rotate: 20deg;
+    transform: translate(-200px, -400px);
+    width: 500px;
+
+   
+}
+
+.photo-4{
+  transform: translate(0px, -90px);
+   
+}
+
+.photo-5{
+    rotate: 5deg;
+    transform: translate(50px, -300px);
+    width: 220px;
+
+    
+}
+
+.photo-6{
+    rotate: -3deg;
+    width: 220px;
+    transform: translate(70px, -140px);
+  
+   
+}
+
+.photo-7{
+    rotate: 90deg;
+    transform: translate(-500px, -250px);
+    width: 600px;
+   
+    
+}
+
+.photo-8{
+    rotate: -5deg;
+    transform: translate(-500px, -300px);
+    width: 300px;
+    background-color: whitesmoke;
+    padding: 15px 15px 50px 15px;
+     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15), 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.photo-9{
+    rotate: -9deg;
+    transform: translate(70px, -500px);
+     width: 300px;
+    background-color: whitesmoke;
+    padding: 15px 15px 50px 15px;
+     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15), 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.photo-10{
+    rotate: 10deg;
+    transform: translate(900px, -700px);
+     width: 300px;
+    background-color: whitesmoke;
+    padding: 15px 15px 50px 15px;
+     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15), 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.photo-11{
+    transform: translate(500px, -1100px);
+     width: 30px;
+}
+
+.photo-12{
+    transform: translate(200px, -1500px);
+     width: 70px;
+}
+
+.photo-13{
+    transform: translate(300px, -1460px);
+     width: 120px;
+}
